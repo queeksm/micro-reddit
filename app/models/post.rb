@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Post < ApplicationRecord
+class Post < ApplicationRecord #Nodoc
   validates :title, presence: true, uniqueness: true
   validates :body, presence: true
   belongs_to :user
