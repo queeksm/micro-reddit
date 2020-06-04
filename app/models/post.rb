@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-#Class
+# Class
 class Post < ApplicationRecord
   validates :title, presence: true, uniqueness: true
   validates :body, presence: true
