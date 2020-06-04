@@ -12,3 +12,6 @@ files:
     - "config/*"
     - "Guardfile"
     - "Rakefile"
+
+Documentation:
+  Enabled: false
